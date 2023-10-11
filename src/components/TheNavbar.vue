@@ -2,6 +2,10 @@
 
 <template>
     <header>
+        <div class="bg-cafe sticky-top d-flex justify-content-center align-items-center py-2 text-white">
+            ¡Realiza hoy tu pedido! 
+            <button class="ms-4 btn btn-outline-light"> Ver Catálogo </button>
+        </div>
         <nav
             class="navbar sticky-top navbar-expand-lg navbar-light shadow-sm bg-crema"
         >
