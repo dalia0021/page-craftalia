@@ -3,7 +3,7 @@
 <template>
     <section id="banner">
         <div class="container-fluid d-flex align-items-center h-100">
-            <div class="row gy-5 justify-content-center align-items-center">
+            <div class="row gy-5 justify-content-center align-items-center w-100">
                 <div class="col-lg-4 col-md-6 col-sm-6 col-10"> 
                     <img src="../assets/banner-cerezo.png" alt="banner-cerezo" class="img-fluid">
                 </div>
