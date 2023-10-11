@@ -20,7 +20,7 @@
 
 <style>
 #banner {
-  background-image: url(../assets/baner-principal.jpg);
+  background-image: url(../assets/baner-principal.png);
   background-position: bottom,50%;
   background-repeat: no-repeat;
   background-size: cover;
