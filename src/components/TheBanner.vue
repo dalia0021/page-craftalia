@@ -4,7 +4,7 @@
     <section id="banner">
         <div class="container-fluid d-flex align-items-center h-100">
             <div class="row gx-0 gy-5 justify-content-center align-items-center w-100">
-                <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-10"> 
+                <div class="col-xl-2 col-lg-4 col-md-5 col-sm-6 col-10"> 
                     <img src="../assets/banner-cerezo.png" alt="banner-cerezo" class="img-fluid mx-auto d-block" id="img-banner">
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-10">
@@ -31,7 +31,7 @@
 
 #img-banner{
     width: auto;
-    max-height: 400px;
+    max-height: 60vh;
 }
 
 </style>
