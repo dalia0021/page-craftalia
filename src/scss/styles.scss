@@ -1,23 +1,40 @@
 .bg-lila {
-    background-color: #c3aed4 ;
+  background-color: #c3aed4;
 }
 
 .bg-crema {
-    background-color: #faefda ;
+  background-color: #faefda;
 }
 
 .bg-cafe {
-    background-color: #794f41 ;
+  background-color: #794f41;
 }
 
 .text-lila {
-    color: #c3aed4 ;
+  color: #c3aed4;
 }
 
 .text-crema {
-    color: #faefda ;
+  color: #faefda;
 }
 
 .text-cafe {
-    color: #794f41 ;
+  color: #794f41;
+}
+
+.btn-cafe:hover {
+  color: #794f41;
+  background-color: #c3aed4;
+  border-color: #c3aed4;
+}
+
+.btn-cafe {
+  color: #ffffff;
+  background-color: #794f41;
+  border-color: #794f41;
+}
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
 }
