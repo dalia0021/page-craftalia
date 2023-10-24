@@ -15,18 +15,13 @@ import polaroid from "../assets/foto-pola.png";
             class="img-fluid mx-auto d-block"
           />
       </div>
-      <div class="col-xl-8 col-lg-7 col-md-12 col-sm-12 col-12 ">
-        <h2 class="text-cafe mb-4">Nuestra Historia:</h2>
+      <div class="col-xl-8 col-lg-7 col-md-12 col-sm-12 col-12 px-4">
+        <div class="px-4">
+            <h2 class="text-cafe mb-4">Nuestra Historia:</h2>
         <p class="text-justify">Hace algunos años, en un rincón tranquilo de mi pequeño taller, nació la
         idea de crear una marca que capturara la esencia de la personalización y
         la artesanía. Me llamo Dalia, y soy la mente y las manos detrás de Craft
         Luharud. </p>
-        
-        <p class="text-justify">La chispa que encendió esta aventura creativa surgió de mi
-        profundo amor por la papelería y los accesorios. Siempre he sido un
-        amante de los detalles y la originalidad, y me di cuenta de que no había
-        nada más gratificante que tener un producto que fuera único y
-        personalizado.</p> 
         
         <p class="text-justify">Así nació Craft Luharud. Desde entonces, me he dedicado
         apasionadamente a crear productos de papelería y accesorios únicos,
@@ -39,10 +34,11 @@ import polaroid from "../assets/foto-pola.png";
             <p class="text-cafe">Con gratitud y creatividad.</p>
           </blockquote>
           <figcaption class="blockquote-footer">
-            Dalia Morales V.  <cite title="Source Title">Fundador de Craft Luharud</cite>
+            Dalia Morales V.  <cite title="Source Title">Creador de Craft Luharud</cite>
           </figcaption>
         </figure>
         
+        </div>
       </div>
     </div>
   </BaseSection>
