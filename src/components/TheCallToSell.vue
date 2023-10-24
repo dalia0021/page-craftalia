@@ -15,7 +15,7 @@ import BaseSection from "./BaseSection.vue";
                 <i>Descubre nuestros productos personalizados únicos y da vida a tus ideas</i>
                 </p>
             </div>
-            <button type="button" class="btn btn-cafe text-center w-50">
+            <button type="button" class="btn btn-cafe text-center w-75">
             <i class="bi bi-stars"></i> ¡Perzonaliza Ahora!
         </button>
         </div>

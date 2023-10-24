@@ -6,7 +6,7 @@ import polaroid from "../assets/foto-pola.png";
 
 <template>
     <BaseSection  id="seccion-nosotros">
-    <div class="row g-5 justify-content-center align-items-center">
+    <div class="row gy-5 justify-content-center align-items-center">
       <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12 col-12">
         <img
             :src="polaroid"
@@ -16,7 +16,6 @@ import polaroid from "../assets/foto-pola.png";
           />
       </div>
       <div class="col-xl-8 col-lg-7 col-md-12 col-sm-12 col-12 px-4">
-        <div class="px-4">
             <h2 class="text-cafe mb-4">Nuestra Historia:</h2>
         <p class="text-justify">Hace algunos años, en un rincón tranquilo de mi pequeño taller, nació la
         idea de crear una marca que capturara la esencia de la personalización y
@@ -37,8 +36,6 @@ import polaroid from "../assets/foto-pola.png";
             Dalia Morales V.  <cite title="Source Title">Creador de Craft Luharud</cite>
           </figcaption>
         </figure>
-        
-        </div>
       </div>
     </div>
   </BaseSection>

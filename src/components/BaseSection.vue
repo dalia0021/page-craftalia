@@ -30,7 +30,7 @@ defineProps({
           <i>{{ subTitle }}</i>
         </h6>
       </div>
-      <div class="py-5">
+      <div class="py-5 px-4">
         <slot></slot>
       </div>
     </div>

@@ -12,7 +12,7 @@ import p3 from "../assets/p3-b.png";
     title="Proceso de personalización"
     subTitle="Desde tu Idea hasta un Producto Único y Hecho a Mano"
   >
-    <div class="row gx-5 gy-5 justify-content-center">
+    <div class="row g-5 justify-content-center">
       <BaseProcessStep :image="p1" step="Paso 1: Elige tu Producto">
         En el primer paso, selecciona el producto que más te guste de nuestra
         colección de papelería y accesorios.

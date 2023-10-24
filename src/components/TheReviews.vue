@@ -13,7 +13,7 @@ import rec4 from "../assets/rec-4.png";
         title="Testimonios y Reseñas de Nuestros Clientes"
         subTitle="Lo que alguno de nuestros clientes dicen:"
         >
-    <div class="row g-5 justify-content-center align-items-center">
+    <div class="row gy-5 justify-content-center align-items-center">
       <div class="col-xl-6 col-lg-8 col-md-12 col-sm-12 col-12">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
             <div class="carousel-indicators">
@@ -52,7 +52,7 @@ import rec4 from "../assets/rec-4.png";
 <style>
 #seccion-reseñas {
   background-image: url(../assets/banner-craft.png);
-  background-position: top right;
+  background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
