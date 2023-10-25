@@ -23,7 +23,7 @@ import pd4 from "../assets/pd4.png";
       />
       <BaseFeaturedProduct
         :image="pd2"
-        name="Llaveros Shrink"
+        name="Llaveros shrink"
         size="5"
         price="90.00"
       />
@@ -36,7 +36,7 @@ import pd4 from "../assets/pd4.png";
       <BaseFeaturedProduct
         :image="pd4"
         name="Pines para ropa"
-        size="1.5"
+        size="2 a 3"
         price="60.00"
       />
     </div>

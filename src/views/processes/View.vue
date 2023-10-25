@@ -7,6 +7,6 @@ import TheFooter from "../../components/TheFooter.vue";
 
 <template>
   <TheNavbar />
-  <BaseTitlePage title="Proceso de personalización de tus productos "/>
+  <BaseTitlePage title="Proceso de personalización de tus productos"/>
   <TheFooter/>
 </template>
