@@ -2,7 +2,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import ViewHome from "../views/ViewHome.vue";
 import ViewProducts from "../views/products/View.vue";
 import ViewProcesses from "../views/processes/View.vue";
-import ViewFAQ from "../views/faq/view.vue";
+import ViewFAQ from "../views/faq/View.vue";
 
 const router = createRouter({
     linkActiveClass:"fw-bold active",
