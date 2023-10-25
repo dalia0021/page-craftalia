@@ -10,14 +10,14 @@
     </div>
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-crema">
       <div class="container-fluid">
-        <a class="navbar-brand m-0" href="#">
-          <img
-            src="../assets/luharud-500.png"
-            alt="Logo"
-            height="40"
-            class="d-inline-block align-text-top mx-4"
-          />
-        </a>
+        <router-link class="navbar-brand m-0" :to="{ name: 'home'}" >
+            <img
+                src="../assets/luharud-500.png"
+                alt="Logo"
+                height="40"
+                class="d-inline-block align-text-top mx-4"
+            />
+        </router-link>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,18 +30,26 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav justify-content-end w-100">
+          <ul class="navbar-nav justify-content-end w-100 ">
             <li class="nav-item">
-              <a class="nav-link" href="#"><b>Inicio</b></a>
+                <router-link class="nav-link" :to="{ name: 'home'}" >
+                    Inicio
+                </router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Artículos</a>
+                <router-link class="nav-link" :to="{ name: 'products'}" >
+                    Artículos
+                </router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Proceso</a>
+                <router-link class="nav-link" :to="{ name: 'processes'}" >
+                    Proceso
+                </router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">FAQ</a>
+                <router-link class="nav-link" :to="{ name: 'FAQ'}" >
+                    FAQ
+                </router-link>
             </li>
           </ul>
         </div>
