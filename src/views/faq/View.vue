@@ -1,8 +1,8 @@
 <script setup>
-import TheNavbar from "../../components/TheNavbar.vue";
-import BaseTitlePage from "../../components/BaseTitlePage.vue";
-import BaseAccordionItem from "../../components/BaseAccordionItem.vue";
-import TheFooter from "../../components/TheFooter.vue";
+import TheNavbar from "@components/TheNavbar.vue";
+import BaseTitlePage from "@components/BaseTitlePage.vue";
+import BaseAccordionItem from "@components/BaseAccordionItem.vue";
+import TheFooter from "@components/TheFooter.vue";
 </script>
 
 <template>
@@ -74,7 +74,7 @@ import TheFooter from "../../components/TheFooter.vue";
                 política de devoluciones para obtener más información.
             </BaseAccordionItem>
         </div>
-        <br>
+        <br />
         <div class="py-5 text-center bg-lila text-white">
             <h3><b>¿Tienes más dudas?</b></h3>
 

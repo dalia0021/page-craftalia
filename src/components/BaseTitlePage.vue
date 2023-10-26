@@ -17,9 +17,7 @@ defineProps({
         <div
             class="container-fluid d-flex justify-content-center align-items-center h-100"
         >
-            <div
-                class="py-5"
-            >
+            <div class="py-5">
                 <div class="text-center">
                     <h1 class="text-cafe display-5">{{ title }}</h1>
                     <h5 class="text-lila" v-if="subtitle != ''">
@@ -39,7 +37,7 @@ defineProps({
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height:20vh;
+    height: 20vh;
     padding: 0;
 }
 </style>

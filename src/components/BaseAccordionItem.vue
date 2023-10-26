@@ -9,7 +9,6 @@ defineProps({
         type: String,
         default: "",
     },
-
 });
 </script>
 
@@ -20,15 +19,16 @@ defineProps({
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                :data-bs-target="'#collapse'+idItem"
+                :data-bs-target="'#collapse' + idItem"
                 aria-expanded="false"
-                :aria-controls="'collapse'+idItem"
+                :aria-controls="'collapse' + idItem"
             >
-            <i class="bi bi-patch-question-fill text-lila"></i>&nbsp;  {{ title }}
+                <i class="bi bi-patch-question-fill text-lila"></i>&nbsp;
+                {{ title }}
             </button>
         </h2>
         <div
-            :id="'collapse'+idItem"
+            :id="'collapse' + idItem"
             class="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
         >

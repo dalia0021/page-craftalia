@@ -1,7 +1,7 @@
 <script setup>
-import logo from "../assets/luharud-500.png";
-import logoInsta from "../assets/instagram.png";
-import logoTiktok from "../assets/tik-tok.png";
+import logo from "@assets/luharud-500.png";
+import logoInsta from "@assets/instagram.png";
+import logoTiktok from "@assets/tik-tok.png";
 </script>
 
 <template>
@@ -35,7 +35,9 @@ import logoTiktok from "../assets/tik-tok.png";
                             />
                         </a>
                     </div>
-                    <p class="mt-4 text-center">Síguenos en nuestras redes sociales</p>
+                    <p class="mt-4 text-center">
+                        Síguenos en nuestras redes sociales
+                    </p>
                 </div>
             </div>
         </div>
