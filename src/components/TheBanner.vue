@@ -18,11 +18,11 @@
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6 col-10">
                     <div class="text-center">
-                        <h1 class="text-cafe display-5">
+                        <h1 class="text-cafe" id="titulo">
                             Tus Ideas, Nuestra Creatividad
                         </h1>
                         <h5 class="text-lila">
-                            <i> Accesorios y Papelería Personalizadas</i>
+                            Accesorios y Papelería Personalizadas
                         </h5>
                     </div>
                 </div>

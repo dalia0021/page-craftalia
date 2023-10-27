@@ -14,7 +14,7 @@ defineProps({
 
 <template>
     <div class="accordion-item">
-        <h2 class="accordion-header">
+        <h4 class="accordion-header">
             <button
                 class="accordion-button collapsed"
                 type="button"
@@ -26,7 +26,7 @@ defineProps({
                 <i class="bi bi-patch-question-fill text-lila"></i>&nbsp;
                 {{ title }}
             </button>
-        </h2>
+        </h4>
         <div
             :id="'collapse' + idItem"
             class="accordion-collapse collapse"

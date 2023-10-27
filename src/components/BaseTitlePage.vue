@@ -21,7 +21,7 @@ defineProps({
                 <div class="text-center">
                     <h1 class="text-cafe display-5">{{ title }}</h1>
                     <h5 class="text-lila" v-if="subtitle != ''">
-                        <i> {{ subtitle }}</i>
+                        {{ subtitle }}
                     </h5>
                 </div>
             </div>

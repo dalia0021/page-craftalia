@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "Matchadalgona";
+    src: url("../assets/fonts/MatchadalgonaRegular.woff");
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Matchadalgona" !important;
+}
+
+.text-matcha{
+    font-family: "Matchadalgona" !important;
+}
+
 .bg-lila {
     background-color: #c3aed4;
 }
@@ -20,6 +35,10 @@
 
 .text-cafe {
     color: #794f41;
+}
+
+.nav-link.text-lila:hover, .nav-link.text-lila:focus {
+    color: #a583c0;
 }
 
 .btn-lila:hover {

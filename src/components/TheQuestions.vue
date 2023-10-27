@@ -9,12 +9,10 @@ import BaseSection from "@components/BaseSection.vue";
                 <div class="text-center">
                     <div class="mb-4">
                         <h2 class="text-cafe">¿Tienes dudas?</h2>
-                        <p>
-                            <i
-                                >Encuentra Respuestas a tus Dudas sobre Nuestros
-                                Productos Personalizados</i
-                            >
-                        </p>
+                        <h5 class="text-lila">
+                            Encuentra Respuestas a tus Dudas sobre Nuestros
+                            Productos Personalizados
+                        </h5>
                     </div>
                     <router-link
                         :to="{ name: 'FAQ' }"

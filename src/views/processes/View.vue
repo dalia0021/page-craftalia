@@ -12,7 +12,7 @@ import TheFooter from "@components/TheFooter.vue";
         <div class="row justify-content-center text-justify">
             <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
                 <div class="py-2">
-                    <h4 class="text-cafe">Paso 1: Selección del Producto</h4>
+                    <h4 class="text-cafe text-matcha">Paso 1: Selección del Producto</h4>
                     <p>
                         Elige el producto que deseas personalizar de nuestra
                         amplia gama de opciones. Puedes optar por llaveros,
@@ -20,7 +20,7 @@ import TheFooter from "@components/TheFooter.vue";
                     </p>
                 </div>
                 <div class="py-2">
-                    <h4 class="text-cafe">
+                    <h4 class="text-cafe text-matcha">
                         Paso 2: Especifica tus Preferencias
                     </h4>
                     <p>
@@ -31,7 +31,7 @@ import TheFooter from "@components/TheFooter.vue";
                     </p>
                 </div>
                 <div class="py-2">
-                    <h4 class="text-cafe">Paso 3: Agrega Tu Toque Personal</h4>
+                    <h4 class="text-cafe text-matcha">Paso 3: Agrega Tu Toque Personal</h4>
                     <p>
                         Aquí es donde realmente brilla la personalización.
                         Puedes proporcionar detalles específicos, como un
@@ -40,7 +40,7 @@ import TheFooter from "@components/TheFooter.vue";
                     </p>
                 </div>
                 <div class="py-2">
-                    <h4 class="text-cafe">Paso 4: Revisión y Confirmación</h4>
+                    <h4 class="text-cafe text-matcha">Paso 4: Revisión y Confirmación</h4>
                     <p>
                         Antes de comenzar el proceso de personalización, te
                         proporcionaremos una vista previa digital de cómo se
@@ -51,7 +51,7 @@ import TheFooter from "@components/TheFooter.vue";
                 </div>
 
                 <div class="py-2">
-                    <h4 class="text-cafe">Paso 5: Creación a Mano</h4>
+                    <h4 class="text-cafe text-matcha">Paso 5: Creación a Mano</h4>
                     <p>
                         Cada producto se crea cuidadosamente a mano, prestando
                         atención a los detalles y utilizando materiales de alta
@@ -60,7 +60,7 @@ import TheFooter from "@components/TheFooter.vue";
                     </p>
                 </div>
                 <div class="py-2">
-                    <h4 class="text-cafe">Paso 6: Control de Calidad</h4>
+                    <h4 class="text-cafe text-matcha">Paso 6: Control de Calidad</h4>
                     <p>
                         Una vez finalizado el proceso de personalización,
                         realizamos un riguroso control de calidad para
@@ -69,14 +69,14 @@ import TheFooter from "@components/TheFooter.vue";
                     </p>
                 </div>
                 <div class="py-2">
-                    <h4 class="text-cafe">Paso 7: Empaque</h4>
+                    <h4 class="text-cafe text-matcha">Paso 7: Empaque</h4>
                     <p>
                         Tu producto personalizado se empaqueta con cuidado para
                         que llegue seguro hasta tus manos.
                     </p>
                 </div>
                 <div class="py-2">
-                    <h4 class="text-cafe">
+                    <h4 class="text-cafe text-matcha">
                         Paso 8: Disfruta de tu Producto Único
                     </h4>
                     <p>

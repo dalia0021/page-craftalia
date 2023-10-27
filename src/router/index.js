@@ -5,7 +5,7 @@ import ViewProcesses from "../views/processes/View.vue";
 import ViewFAQ from "../views/faq/View.vue";
 
 const router = createRouter({
-    linkActiveClass: "fw-bold active",
+    linkActiveClass: "fw-bold text-lila",
     history: createWebHashHistory(import.meta.env.BASE_URL),
     routes: [
         {

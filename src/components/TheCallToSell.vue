@@ -5,18 +5,16 @@ import BaseSection from "@components/BaseSection.vue";
 <template>
     <BaseSection bgColor="bg-white" frames>
         <div class="row justify-content-center">
-            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+            <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
                 <div class="text-center">
                     <div class="mb-4">
                         <h2 class="text-cafe">
                             Haz que tu Creatividad Despegue
                         </h2>
-                        <p>
-                            <i
-                                >Descubre nuestros productos personalizados
-                                únicos y da vida a tus ideas</i
-                            >
-                        </p>
+                        <h5 class="text-lila">
+                            Descubre nuestros productos personalizados únicos y
+                            da vida a tus ideas
+                        </h5>
                     </div>
                     <router-link
                         :to="{ name: 'products' }"

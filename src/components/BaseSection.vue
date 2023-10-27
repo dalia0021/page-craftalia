@@ -31,9 +31,9 @@ defineProps({
         <div class="py-5" :class="[fluid ? 'container-fluid' : 'container']">
             <div class="text-center" v-if="title != '' && subTitle != ''">
                 <h1 class="text-cafe">{{ title }}</h1>
-                <h6>
-                    <i>{{ subTitle }}</i>
-                </h6>
+                <h5 class="text-lila">
+                    {{ subTitle }}
+                </h5>
             </div>
             <div class="py-5 px-4">
                 <slot></slot>
