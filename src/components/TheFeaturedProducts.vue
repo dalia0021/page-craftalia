@@ -1,33 +1,25 @@
 <script setup>
 import BaseSection from "@components/BaseSection.vue";
 import BaseFeaturedProduct from "@components/BaseFeaturedProduct.vue";
+import { useApi } from "@composables/useApi";
+import { reactive, ref, computed } from "vue";
 
-const listProductos = [
-    {
-        image: "pd1.png",
-        name: "Llaveros de acrílico",
-        size: "5x5",
-        price: "120.00",
-    },
-    {
-        image: "pd2.png",
-        name: "Llaveros de shrink",
-        size: "5",
-        price: "100.00",
-    },
-    {
-        image: "pd3.png",
-        name: "Colguijes para celular",
-        size: "4",
-        price: "85.00",
-    },
-    {
-        image: "pd4.png",
-        name: "Pines para ropa",
-        size: "2 a 3",
-        price: "60.00",
-    },
-];
+const baseImages = "featured/";
+
+const appApi = reactive(useApi());
+
+const listProductos = ref([])
+
+
+const fetchListProducts = () => {
+    listProductos.value =  appApi.getListProducts()
+}
+
+const featuredProducts = computed(() => {
+  return listProductos.value.filter((item) => item.featured == true)
+})
+
+fetchListProducts();
 </script>
 
 <template>
@@ -39,9 +31,9 @@ const listProductos = [
     >
         <div class="row gy-5 justify-content-center align-items-center">
             <BaseFeaturedProduct
-                v-for="(item, idx) in listProductos"
+                v-for="(item, idx) in featuredProducts"
                 :key="idx"
-                :image="item.image"
+                :image="baseImages + item.image"
                 :name="item.name"
                 :size="item.size"
                 :price="item.price"

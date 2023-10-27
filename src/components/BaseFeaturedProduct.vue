@@ -31,7 +31,6 @@ defineProps({
     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-10 text-center">
         <img
             :src="appUseUtils.getImgUrl(image)"
-            alt="banner-cerezo"
             class="img-fluid mx-auto d-block px-3"
         />
         <p class="mb-2">
@@ -43,7 +42,7 @@ defineProps({
         </p>
         <img
             src="../assets/estrellas.png"
-            alt="banner-cerezo"
+            alt="califiaciones"
             class="img-fluid mx-auto d-block"
         />
     </div>
