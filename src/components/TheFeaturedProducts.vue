@@ -4,15 +4,13 @@ import BaseFeaturedProduct from "@components/BaseFeaturedProduct.vue";
 import { useApi } from "@composables/useApi";
 import { reactive, ref, computed } from "vue";
 
-const baseImages = "featured/";
-
 const appApi = reactive(useApi());
 
 const listProductos = ref([])
 
 
 const fetchListProducts = () => {
-    listProductos.value =  appApi.getListProducts()
+    listProductos.value =  appApi.getProductsList()
 }
 
 const featuredProducts = computed(() => {
@@ -33,7 +31,7 @@ fetchListProducts();
             <BaseFeaturedProduct
                 v-for="(item, idx) in featuredProducts"
                 :key="idx"
-                :image="baseImages + item.image"
+                :image="item.imageFeatured"
                 :name="item.name"
                 :size="item.size"
                 :price="item.price"

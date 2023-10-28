@@ -6,15 +6,13 @@ import TheFooter from "@components/TheFooter.vue";
 import { useApi } from "@composables/useApi";
 import { reactive, ref } from "vue";
 
-const baseImages = "products/";
-
 const appApi = reactive(useApi());
 
 const listProductos = ref([])
 
 
 const fetchListProducts = () => {
-    listProductos.value =  appApi.getListProducts()
+    listProductos.value =  appApi.getProductsList()
 }
 
 fetchListProducts();
@@ -32,7 +30,9 @@ fetchListProducts();
             <BaseProduct
                 v-for="(item, idx) in listProductos"
                 :key="idx"
-                :image="baseImages + item.image"
+                :id="item.id"
+                :image="item.image"
+                :category="item.category"
                 :name="item.name"
                 :size="item.size"
                 :price="item.price"

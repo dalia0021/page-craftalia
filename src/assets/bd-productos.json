@@ -1,91 +1,127 @@
 [
     
     {
-        "image": "llavero-acrilico.png",
-        "name": "Llaveros de acrílico",
+        "id":1,
+        "imageFeatured": "featured/llavero-acrilico.png",
+        "image": "products/llavero-acrilico.png",
+        "category":"Llaveros",
+        "name": "Llavero de acrílico",
         "size": "5x5",
         "price": "120.00",
-        "featured": true
+        "featured": true,
+        "thumbnails":[
+            "products/llavero-acrilico-1.jpg",
+            "products/llavero-acrilico-2.png",
+            "products/llavero-acrilico-3.png",
+            "products/llavero-acrilico-4.png"
+        ]
     },
     {
-        "image": "llavero-shrink.png",
-        "name": "Llaveros shrink",
+        "id":2,
+        "imageFeatured": "featured/llavero-shrink.png",
+        "image": "products/llavero-shrink.png",
+        "category":"Llaveros",
+        "name": "Llavero shrink",
         "size": "5",
         "price": "100.00",
         "featured": true
     },
     {
-        "image": "colguije.png",
-        "name": "Colguijes para celular",
+        "id":3,
+        "imageFeatured": "featured/colguije.png",
+        "image": "products/colguije.png",
+        "category":"Colguijes",
+        "name": "Colguije para celular",
         "size": "4",
         "price": "85.00",
         "featured": true
     },
     {
-        "image": "pines.png",
-        "name": "Pines para ropa",
+        "id":4,
+        "imageFeatured": "featured/pines.png",
+        "image": "products/pines.png",
+        "category":"Pines",
+        "name": "Pin para ropa",
         "size": "2 a 3",
         "price": "60.00",
         "featured": true
     },
     {
-        "image": "aretes.png",
+        "id":5,
+        "image": "products/aretes.png",
+        "category":"Aretes",
         "name": "Aretes",
         "size": "1.5",
         "price": "100.00",
         "featured": false
     },
     {
-        "image": "cuaderno-chico.png",
+        "id":6,
+        "image": "products/cuaderno-chico.png",
+        "category":"Cuadernos",
         "name": "Cuaderno chico",
         "size": "12x10",
         "price": "200.00",
         "featured": false
     },
     {
-        "image": "cin-color.jpg",
+        "id":6,
+        "image": "products/cin-color.jpg",
+        "category":"Stickers",
         "name": "Stickers individuales para negocio (color)",
         "size": "23pzas 4x4",
         "price": "60.00",
         "featured": false
     },
     {
-        "image": "cin-cafe.jpg",
+        "id":7,
+        "image": "products/cin-cafe.jpg",
+        "category":"Stickers",
         "name": "Stickers individuales para negocio (cafe)",
         "size": "23pzas 4x4",
         "price": "55.00",
         "featured": false
     },
     {
-        "image": "cin-holograficas.jpg",
+        "id":8,
+        "image": "products/cin-holograficas.jpg",
+        "category":"Stickers",
         "name": "Stickers individuales para negocio (Holográficas)",
         "size": "23pzas 4x4",
         "price": "60.00",
         "featured": false
     },
     {
-        "image": "ce-minis.png",
+        "id":9,
+        "image": "products/ce-minis.png",
+        "category":"Stickers",
         "name": "Stickers escolares minis",
         "size": "60pzas 3x0.5",
         "price": "80.00",
         "featured": false
     },
     {
-        "image": "ce-chicas.jpg",
+        "id":10,
+        "image": "products/ce-chicas.jpg",
+        "category":"Stickers",
         "name": "Stickers escolares chicas",
         "size": "45pzas 6x1",
         "price": "80.00",
         "featured": false
     },
     {
-        "image": "ce-medianas.jpg",
+        "id":11,
+        "image": "products/ce-medianas.jpg",
+        "category":"Stickers",
         "name": "Stickers escolares medianas",
         "size": "40pzas 3x3",
         "price": "80.00",
         "featured": false
     },
     {
-        "image": "ce-grandes.jpg",
+        "id":12,
+        "image": "products/ce-grandes.jpg",
+        "category":"Stickers",
         "name": "Stickers escolares grandes",
         "size": "20pzas 6x3",
         "price": "80.00",
