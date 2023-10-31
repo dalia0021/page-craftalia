@@ -1,104 +1,109 @@
 @font-face {
-    font-family: "Matchadalgona";
-    src: url("../assets/fonts/MatchadalgonaRegular.woff");
+  font-family: "Matchadalgona";
+  src: url("../assets/fonts/MatchadalgonaRegular.woff");
 }
 
 h1,
 h2,
 h3 {
-    font-family: "Matchadalgona" !important;
-}
-
-.text-matcha{
-    font-family: "Matchadalgona" !important;
+  font-family: "Matchadalgona" !important;
 }
 
 .bg-lila {
-    background-color: #c3aed4;
+  background-color: #c3aed4;
 }
 
 .bg-crema {
-    background-color: #faefda;
+  background-color: #faefda;
 }
 
 .bg-cafe {
-    background-color: #794f41;
+  background-color: #794f41;
 }
 
 .text-lila {
-    color: #c3aed4;
+  color: #c3aed4;
 }
 
 .text-crema {
-    color: #faefda;
+  color: #faefda;
 }
 
 .text-cafe {
-    color: #794f41;
+  color: #794f41;
 }
 
 .border-lila-subtle {
-    border-color: #c3aed4 !important;
-  }
-
-.nav-link.text-lila:hover, .nav-link.text-lila:focus {
-    color: #a583c0;
+  border-color: #c3aed4 !important;
 }
 
-.btn-lila:hover {
-    color: #ffffff;
-    background-color: #a583c0;
-    border-color: #a583c0;
+.text-sm {
+  font-size: 0.8rem;
 }
 
-.btn-lila {
-    color: #ffffff;
-    background-color: #c3aed4;
-    border-color: #c3aed4;
-}
-
-.btn-cafe:hover {
-    color: #ffffff;
-    background-color: #c3aed4;
-    border-color: #c3aed4;
-}
-
-.btn-cafe {
-    color: #ffffff;
-    background-color: #794f41;
-    border-color: #794f41;
-}
-
-.btn-outline-cafe {
-    --bs-btn-color: #794f41;
-    --bs-btn-border-color: #794f41;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #c3aed4;
-    --bs-btn-hover-border-color: #c3aed4;
-    --bs-btn-focus-shadow-rgb: 248, 249, 250;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #794f41;
-    --bs-btn-active-border-color: #794f41;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #794f41;
-    --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: #794f41;
-    --bs-gradient: none;
+.text-matcha {
+  font-family: "Matchadalgona" !important;
 }
 
 .text-justify {
-    text-align: justify;
-    text-justify: inter-word;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.nav-link.text-lila:hover,
+.nav-link.text-lila:focus {
+  color: #a583c0;
+}
+
+.btn-lila:hover {
+  color: #ffffff;
+  background-color: #a583c0;
+  border-color: #a583c0;
+}
+
+.btn-lila {
+  color: #ffffff;
+  background-color: #c3aed4;
+  border-color: #c3aed4;
+}
+
+.btn-cafe:hover {
+  color: #ffffff;
+  background-color: #c3aed4;
+  border-color: #c3aed4;
+}
+
+.btn-cafe {
+  color: #ffffff;
+  background-color: #794f41;
+  border-color: #794f41;
+}
+
+.btn-outline-cafe {
+  --bs-btn-color: #794f41;
+  --bs-btn-border-color: #794f41;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #c3aed4;
+  --bs-btn-hover-border-color: #c3aed4;
+  --bs-btn-focus-shadow-rgb: 248, 249, 250;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #794f41;
+  --bs-btn-active-border-color: #794f41;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #794f41;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #794f41;
+  --bs-gradient: none;
 }
 
 #svg-top-crema {
-    height: 65px;
-    background-color: #faefda;
-    mask-image: url(../assets/franja-in.svg);
+  height: 65px;
+  background-color: #faefda;
+  mask-image: url(../assets/franja-in.svg);
 }
 
 #svg-bottom-crema {
-    height: 50px;
-    background-color: #faefda;
-    mask-image: url(../assets/franja.svg);
+  height: 50px;
+  background-color: #faefda;
+  mask-image: url(../assets/franja.svg);
 }
