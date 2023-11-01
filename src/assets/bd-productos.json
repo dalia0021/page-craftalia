@@ -21,7 +21,8 @@
             "Acrílico transparente",
             "Detalles en vinil",
             "Acabado con resina",
-            "Diseño: un solo lado"
+            "Diseño: un solo lado",
+            "Grosor: 5 milimetros"
         ]
     },
     {
@@ -90,6 +91,7 @@
     },
     {
         "id":5,
+        "imageFeatured": null,
         "image": "products/aretes.png",
         "category":"Aretes",
         "name": "Aretes",
@@ -110,9 +112,10 @@
     },
     {
         "id":6,
+        "imageFeatured": null,
         "image": "products/cuaderno-chico.png",
         "category":"Cuadernos",
-        "name": "Cuaderno chico",
+        "name": "Cuaderno - chico",
         "description":"",
         "size": "12x10",
         "price": "200.00",
@@ -130,9 +133,10 @@
     },
     {
         "id":6,
+        "imageFeatured": null,
         "image": "products/cin-color.jpg",
         "category":"Stickers",
-        "name": "Stickers individuales para negocio (color)",
+        "name": "Stickers individuales para negocio - color",
         "description":"",
         "size": "23pzas 4x4",
         "price": "60.00",
@@ -150,9 +154,10 @@
     },
     {
         "id":7,
+        "imageFeatured": null,
         "image": "products/cin-cafe.jpg",
         "category":"Stickers",
-        "name": "Stickers individuales para negocio (cafe)",
+        "name": "Stickers individuales para negocio - café",
         "description":"",
         "size": "23pzas 4x4",
         "price": "55.00",
@@ -170,9 +175,10 @@
     },
     {
         "id":8,
+        "imageFeatured": null,
         "image": "products/cin-holograficas.jpg",
         "category":"Stickers",
-        "name": "Stickers individuales para negocio (Holográficas)",
+        "name": "Stickers individuales para negocio - holográficas",
         "description":"",
         "size": "23pzas 4x4",
         "price": "60.00",
@@ -190,9 +196,10 @@
     },
     {
         "id":9,
+        "imageFeatured": null,
         "image": "products/ce-minis.png",
         "category":"Stickers",
-        "name": "Stickers escolares minis",
+        "name": "Stickers escolares - minis",
         "description":"",
         "size": "60pzas 3x0.5",
         "price": "80.00",
@@ -210,9 +217,10 @@
     },
     {
         "id":10,
+        "imageFeatured": null,
         "image": "products/ce-chicas.jpg",
         "category":"Stickers",
-        "name": "Stickers escolares chicas",
+        "name": "Stickers escolares - chicas",
         "description":"",
         "size": "45pzas 6x1",
         "price": "80.00",
@@ -230,9 +238,10 @@
     },
     {
         "id":11,
+        "imageFeatured": null,
         "image": "products/ce-medianas.jpg",
         "category":"Stickers",
-        "name": "Stickers escolares medianas",
+        "name": "Stickers escolares - medianas",
         "description":"",
         "size": "40pzas 3x3",
         "price": "80.00",
@@ -250,9 +259,10 @@
     },
     {
         "id":12,
+        "imageFeatured": null,
         "image": "products/ce-grandes.jpg",
         "category":"Stickers",
-        "name": "Stickers escolares grandes",
+        "name": "Stickers escolares - grandes",
         "description":"",
         "size": "20pzas 6x3",
         "price": "80.00",
@@ -267,5 +277,28 @@
             "Laminado con acabado mate, brilloso u holográfico"  
         ]
 
+    },
+    {
+        "id":13,
+        "imageFeatured": null,
+        "image": "products/llavero-zelda-link-01.png",
+        "category":"Llaveros",
+        "name": "Llavero Zelda y Link - chibi",
+        "description":"",
+        "size": "5",
+        "price": "100.00",
+        "featured": false,
+        "customizable": false,
+        "thumbnails":[
+            "products/llavero-zelda-link-01-1.png"
+        ],
+        "characteristics":[
+            "Plastico duro trasparente",
+            "Pintura acrílica",
+            "Acabado con resina",
+            "Diseño: un solo lado"
+        ]
+
     }
+
 ]

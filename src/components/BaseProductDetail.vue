@@ -2,6 +2,7 @@
 import { reactive, ref } from "vue";
 import AppInputAmount from "@components/AppInputAmount.vue";
 import AppInputDesign from "@components/AppInputDesign.vue";
+import AppInputKeychainStyle from "@components/AppInputKeychainStyle.vue";
 
 const props = defineProps({
   product: {
@@ -29,8 +30,14 @@ const form = reactive({
       <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12">
         <AppInputAmount v-model="form.cantidad"/>
       </div>
-      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+      <div class="text-body-tertiary">
+        <hr>
+        </div>
+      <div v-if="product.customizable"  class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
         <AppInputDesign v-model="form.diseno"/>
+      </div>
+      <div v-if="product.customizable"  class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+        <AppInputKeychainStyle/>
       </div>
     </div>
     <br />

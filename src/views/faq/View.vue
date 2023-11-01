@@ -4,6 +4,13 @@ import BaseTitlePage from "@components/BaseTitlePage.vue";
 import BaseAccordionItem from "@components/BaseAccordionItem.vue";
 import BaseSection from "@components/BaseSection.vue";
 import TheFooter from "@components/TheFooter.vue";
+
+const scrollToTop = () => {
+    window.scrollTo(0, 0);
+};
+
+scrollToTop();
+
 </script>
 
 <template>

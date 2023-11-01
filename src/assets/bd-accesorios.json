@@ -1,0 +1,66 @@
+{
+    
+"keychain":[
+    {
+        "id":1,
+        "name":"Broche naranja",
+        "image": "products/accesorios/broche-l-naranja.png"
+    },{
+        "id":2,
+        "name":"Broche rosa",
+        "image": "products/accesorios/broche-l-rosa.png"
+    },{
+        "id":3,
+        "name":"Broche menta",
+        "image": "products/accesorios/broche-l-menta.png"
+    },{
+        "id":4,
+        "name":"Broche cafe",
+        "image": "products/accesorios/broche-l-cafe.png"
+    },{
+        "id":5,
+        "name":"Broche negro",
+        "image": "products/accesorios/broche-l-negro.png"
+    },{
+        "id":6,
+        "name":"Broche lila",
+        "image": "products/accesorios/broche-l-lila.png"
+    },{
+        "id":7,
+        "name":"Broche azul claro",
+        "image": "products/accesorios/broche-l-azul-claro.png"
+    },{
+        "id":8,
+        "name":"Broche aqua",
+        "image": "products/accesorios/broche-l-aqua.png"
+    },{
+        "id":9,
+        "name":"Broche amarillo",
+        "image": "products/accesorios/broche-l-amarillo.png"
+    },{
+        "id":10,
+        "name":"Broche rojo",
+        "image": "products/accesorios/broche-l-rojo.png"
+    },{
+        "id":11,
+        "name":"Broche bronce",
+        "image": "products/accesorios/broche-l-bronce.png"
+    },{
+        "id":12,
+        "name":"Broche plata",
+        "image": "products/accesorios/broche-l-plata.png"
+    },{
+        "id":13,
+        "name":"Broche oro rosa",
+        "image": "products/accesorios/broche-l-oro-rosa.png"
+    },{
+        "id":14,
+        "name":"Broche azul oro",
+        "image": "products/accesorios/broche-l-oro.png"
+    },{
+        "id":15,
+        "name":"Broche oro blanco",
+        "image": "products/accesorios/broche-l-oro-blanco.png"
+    }
+]
+}

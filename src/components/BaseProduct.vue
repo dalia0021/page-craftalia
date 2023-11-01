@@ -37,7 +37,8 @@ defineProps({
           v-slot="{ navigate }"
         >
           <button @click="navigate" class="btn btn-lila btn-sm w-100">
-            <i class="bi bi-eye"></i> Ver Detalle
+            <span v-if="!product.customizable"><i class="bi bi-cart-plus"></i> Comprar</span>
+            <span v-else><i class="bi bi-brush"></i> Personalizar</span>
           </button>
         </router-link>
       </div>
