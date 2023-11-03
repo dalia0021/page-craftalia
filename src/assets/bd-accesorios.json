@@ -1,66 +1,233 @@
 {
+    "earrings":[
+        {
+            "id": 1,
+            "name": "Sencillo",
+            "image": "products/accesorios/arete-base.png"
+        },{
+            "id": 2,
+            "name": "Gancho",
+            "image": "products/accesorios/arete-gancho.png"
+        }
+    ],
+
+    "pins":[
+        {
+            "id": 1,
+            "name": "Negro",
+            "image": "products/accesorios/pin-negro.png"
+        },{
+            "id": 2,
+            "name": "Trasparente",
+            "image": "products/accesorios/pin-trasparente.png"
+        },{
+            "id": 3,
+            "name": "Metal",
+            "image": "products/accesorios/pin-metal.png"
+        }
+    ],
     
-"keychain":[
-    {
-        "id":1,
-        "name":"Broche naranja",
-        "image": "products/accesorios/broche-l-naranja.png"
-    },{
-        "id":2,
-        "name":"Broche rosa",
-        "image": "products/accesorios/broche-l-rosa.png"
-    },{
-        "id":3,
-        "name":"Broche menta",
-        "image": "products/accesorios/broche-l-menta.png"
-    },{
-        "id":4,
-        "name":"Broche cafe",
-        "image": "products/accesorios/broche-l-cafe.png"
-    },{
-        "id":5,
-        "name":"Broche negro",
-        "image": "products/accesorios/broche-l-negro.png"
-    },{
-        "id":6,
-        "name":"Broche lila",
-        "image": "products/accesorios/broche-l-lila.png"
-    },{
-        "id":7,
-        "name":"Broche azul claro",
-        "image": "products/accesorios/broche-l-azul-claro.png"
-    },{
-        "id":8,
-        "name":"Broche aqua",
-        "image": "products/accesorios/broche-l-aqua.png"
-    },{
-        "id":9,
-        "name":"Broche amarillo",
-        "image": "products/accesorios/broche-l-amarillo.png"
-    },{
-        "id":10,
-        "name":"Broche rojo",
-        "image": "products/accesorios/broche-l-rojo.png"
-    },{
-        "id":11,
-        "name":"Broche bronce",
-        "image": "products/accesorios/broche-l-bronce.png"
-    },{
-        "id":12,
-        "name":"Broche plata",
-        "image": "products/accesorios/broche-l-plata.png"
-    },{
-        "id":13,
-        "name":"Broche oro rosa",
-        "image": "products/accesorios/broche-l-oro-rosa.png"
-    },{
-        "id":14,
-        "name":"Broche azul oro",
-        "image": "products/accesorios/broche-l-oro.png"
-    },{
-        "id":15,
-        "name":"Broche oro blanco",
-        "image": "products/accesorios/broche-l-oro-blanco.png"
-    }
-]
+    
+    "keychain": [
+        {
+            "id": 1,
+            "name": "Llavero negro",
+            "image": "products/accesorios/llavero-negro.png"
+        },
+        {
+            "id": 3,
+            "name": "Llavero oro",
+            "image": "products/accesorios/llavero-oro.png"
+        },
+        {
+            "id": 2,
+            "name": "Llavero oro rosa",
+            "image": "products/accesorios/llavero-oro-rosa.png"
+        },
+        {
+            "id": 4,
+            "name": "Llavero plata",
+            "image": "products/accesorios/llavero-plata.png"
+        },
+        {
+            "id": 5,
+            "name": "Llavero plata oscuro",
+            "image": "products/accesorios/llavero-plata-oscuro.png"
+        },
+        {
+            "id": 6,
+            "name": "Llavero bronce",
+            "image": "products/accesorios/llavero-bronce.png"
+        },
+        {
+            "id": 7,
+            "name": "Broche naranja",
+            "image": "products/accesorios/broche-l-naranja.png"
+        },
+        {
+            "id": 8,
+            "name": "Broche rosa",
+            "image": "products/accesorios/broche-l-rosa.png"
+        },
+        {
+            "id": 9,
+            "name": "Broche menta",
+            "image": "products/accesorios/broche-l-menta.png"
+        },
+        {
+            "id": 10,
+            "name": "Broche cafe",
+            "image": "products/accesorios/broche-l-cafe.png"
+        },
+        {
+            "id": 11,
+            "name": "Broche negro",
+            "image": "products/accesorios/broche-l-negro.png"
+        },
+        {
+            "id": 12,
+            "name": "Broche lila",
+            "image": "products/accesorios/broche-l-lila.png"
+        },
+        {
+            "id": 13,
+            "name": "Broche azul claro",
+            "image": "products/accesorios/broche-l-azul-claro.png"
+        },
+        {
+            "id": 14,
+            "name": "Broche aqua",
+            "image": "products/accesorios/broche-l-aqua.png"
+        },
+        {
+            "id": 15,
+            "name": "Broche amarillo",
+            "image": "products/accesorios/broche-l-amarillo.png"
+        },
+        {
+            "id": 16,
+            "name": "Broche rojo",
+            "image": "products/accesorios/broche-l-rojo.png"
+        },
+        {
+            "id": 17,
+            "name": "Broche bronce",
+            "image": "products/accesorios/broche-l-bronce.png"
+        },
+        {
+            "id": 18,
+            "name": "Broche plata",
+            "image": "products/accesorios/broche-l-plata.png"
+        },
+        {
+            "id": 19,
+            "name": "Broche oro rosa",
+            "image": "products/accesorios/broche-l-oro-rosa.png"
+        },
+        {
+            "id": 20,
+            "name": "Broche oro",
+            "image": "products/accesorios/broche-l-oro.png"
+        },
+        {
+            "id": 21,
+            "name": "Broche oro blanco",
+            "image": "products/accesorios/broche-l-oro-blanco.png"
+        },
+        {
+            "id": 22,
+            "name": "Cadena blanca",
+            "image": "products/accesorios/cadena-blanca.png"
+        },
+        {
+            "id": 23,
+            "name": "Cadena verde manzana",
+            "image": "products/accesorios/cadena-verde-manzana.png"
+        },
+        {
+            "id": 24,
+            "name": "Cadena gris",
+            "image": "products/accesorios/cadena-gris.png"
+        },
+        {
+            "id": 25,
+            "name": "Cadena menta",
+            "image": "products/accesorios/cadena-menta.png"
+        },
+        {
+            "id": 26,
+            "name": "Cadena amarillo claro",
+            "image": "products/accesorios/cadena-amarillo-claro.png"
+        },
+        {
+            "id": 27,
+            "name": "Cadena naranja",
+            "image": "products/accesorios/cadena-naranja.png"
+        },
+        {
+            "id": 28,
+            "name": "Cadena amarilla",
+            "image": "products/accesorios/cadena-amarilla.png"
+        },
+        {
+            "id": 29,
+            "name": "Cadena verde fosforecente",
+            "image": "products/accesorios/cadena-verde-fosforecente.png"
+        },
+        {
+            "id": 30,
+            "name": "Cadena aqua",
+            "image": "products/accesorios/cadena-aqua.png"
+        },
+        {
+            "id": 31,
+            "name": "Cadena lila",
+            "image": "products/accesorios/cadena-lila.png"
+        },
+        {
+            "id": 32,
+            "name": "Cadena negra",
+            "image": "products/accesorios/cadena-negra.png"
+        },
+        {
+            "id": 33,
+            "name": "Cadena rosa",
+            "image": "products/accesorios/cadena-rosa.png"
+        },
+        {
+            "id": 34,
+            "name": "Cadena rosa claro",
+            "image": "products/accesorios/cadena-rosa-claro.png"
+        },
+        {
+            "id": 35,
+            "name": "Cadena verde",
+            "image": "products/accesorios/cadena-verde.png"
+        },
+        {
+            "id": 36,
+            "name": "Cadena roja",
+            "image": "products/accesorios/cadena-roja.png"
+        },
+        {
+            "id": 37,
+            "name": "Cadena navy",
+            "image": "products/accesorios/cadena-navy.png"
+        },
+        {
+            "id": 38,
+            "name": "Cadena azul claro",
+            "image": "products/accesorios/cadena-azul-claro.png"
+        },
+        {
+            "id": 39,
+            "name": "Cadena azul",
+            "image": "products/accesorios/cadena-azul.png"
+        },
+        {
+            "id": 40,
+            "name": "Cadena cafe",
+            "image": "products/accesorios/cadena-cafe.png"
+        }
+    ]
 }
