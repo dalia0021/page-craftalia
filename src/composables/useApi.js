@@ -2,8 +2,8 @@ import productsJson from "@assets/bd-productos.json"
 import accesoriosJson from "@assets/bd-accesorios.json"
 
 export const useApi = () => {
-    const getAccessoriesList = () => {
-        return accesoriosJson
+    const getKeychainsStyles = () => {
+        return accesoriosJson.keychains
     };
 
     const getProductsList = () => {
@@ -16,7 +16,7 @@ export const useApi = () => {
     };
 
     return {
-        getAccessoriesList,
+        getKeychainsStyles,
         getProductsList,
         getProductById
     };
