@@ -34,7 +34,7 @@
         "description":"",
         "size": "5",
         "price": "100.00",
-        "featured": true,
+        "featured": false,
         "customizable": true,
         "thumbnails":[
             "products/llavero-shrink.png"
@@ -55,7 +55,7 @@
         "name": "Colguije para celular",
         "description":"",
         "size": "4",
-        "price": "85.00",
+        "price": "70.00",
         "featured": true,
         "customizable": true,
         "thumbnails":[
@@ -76,7 +76,7 @@
         "name": "Pin para ropa",
         "description":"",
         "size": "2 a 3",
-        "price": "60.00",
+        "price": "50.00",
         "featured": true,
         "customizable": true,
         "thumbnails":[
@@ -202,7 +202,7 @@
         "name": "Stickers escolares - minis",
         "description":"",
         "size": "60pzas 3x0.5",
-        "price": "80.00",
+        "price": "70.00",
         "featured": false,
         "customizable": true,
         "thumbnails":[
@@ -223,7 +223,7 @@
         "name": "Stickers escolares - chicas",
         "description":"",
         "size": "45pzas 6x1",
-        "price": "80.00",
+        "price": "70.00",
         "featured": false,
         "customizable": true,
         "thumbnails":[
@@ -244,7 +244,7 @@
         "name": "Stickers escolares - medianas",
         "description":"",
         "size": "40pzas 3x3",
-        "price": "80.00",
+        "price": "70.00",
         "featured": false,
         "customizable": true,
         "thumbnails":[
@@ -265,7 +265,7 @@
         "name": "Stickers escolares - grandes",
         "description":"",
         "size": "20pzas 6x3",
-        "price": "80.00",
+        "price": "70.00",
         "featured": false,
         "customizable": true,
         "thumbnails":[
@@ -280,14 +280,14 @@
     },
     {
         "id":13,
-        "imageFeatured": null,
+        "imageFeatured": "featured/llavero-zelda-link.png",
         "image": "products/llavero-zelda-link-01.png",
         "category":"Llaveros",
         "name": "Llavero Zelda y Link - chibi",
         "description":"",
         "size": "5",
         "price": "100.00",
-        "featured": false,
+        "featured": true,
         "customizable": false,
         "thumbnails":[
             "products/llavero-zelda-link-01-1.png"
@@ -297,6 +297,75 @@
             "Pintura acrílica",
             "Acabado con resina",
             "Diseño: un solo lado"
+        ]
+
+    },
+    {
+        "id":14,
+        "imageFeatured": null,
+        "image": "products/colguije-one-piece-jinbe-01.png",
+        "category":"Colguijes",
+        "name": "Colguije One piece - Ginbe",
+        "description":"",
+        "size": "4",
+        "price": "90.00",
+        "featured": false,
+        "customizable": false,
+        "thumbnails":[
+            "products/colguije-one-piece-jinbe-01-1.png"
+        ],
+        "characteristics":[
+            "Plastico duro trasparente",
+            "Pintura acrílica",
+            "Acabado con resina",
+            "Acabado azul con ojuelas holograficas"
+        ]
+
+    },
+    {
+        "id":15,
+        "imageFeatured": null,
+        "image": "products/colguije-ranita-burbujas-01.png",
+        "category":"Colguijes",
+        "name": "Colguije Ranita - Burbujas",
+        "description":"",
+        "size": "4",
+        "price": "70.00",
+        "featured": false,
+        "customizable": false,
+        "thumbnails":[
+            "products/colguije-ranita-burbujas-01-1.png",
+            "products/colguije-ranita-burbujas-01-2.png",
+            "products/colguije-ranita-burbujas-01-3.png"
+        ],
+        "characteristics":[
+            "Plastico duro trasparente",
+            "Pintura acrílica",
+            "Acabado con resina",
+            "Acabado brillantina azul"
+        ]
+
+    },
+    {
+        "id":16,
+        "imageFeatured": null,
+        "image": "products/pin-one-piece-choper-01.png",
+        "category":"Pines",
+        "name": "Pin - Chopper",
+        "description":"",
+        "size": "3",
+        "price": "80.00",
+        "featured": false,
+        "customizable": false,
+        "thumbnails":[
+            "products/pin-one-piece-choper-01-1.png",
+            "products/pin-one-piece-choper-01-2.png"
+        ],
+        "characteristics":[
+            "Plastico duro trasparente",
+            "Pintura acrílica",
+            "Acabado con resina",
+            "Acabado brillantina azul"
         ]
 
     }
