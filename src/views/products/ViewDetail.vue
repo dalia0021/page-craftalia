@@ -28,7 +28,6 @@ const producto = reactive({
 const initComponents = () => {
     fetchListProducts();
     loadData();
-    scrollToTop();
 };
 
 const loadData = () => {
@@ -48,10 +47,6 @@ const loadData = () => {
 
 const fetchListProducts = () => {
     listProductos.value = appApi.getProductsList();
-};
-
-const scrollToTop = () => {
-    window.scrollTo(0, 0);
 };
 
 initComponents();

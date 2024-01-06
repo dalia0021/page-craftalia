@@ -4,7 +4,14 @@ export const useUtils = () => {
         return imageUrl;
     };
 
+    const scrollToTop = () => {
+        setTimeout(() => {
+            window.scrollTo(0, 0);
+        }, 100);  
+    };
+
     return {
         getImgUrl,
+        scrollToTop
     };
 };

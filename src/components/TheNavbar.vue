@@ -1,4 +1,9 @@
-<script setup></script>
+<script setup>
+import { useUtils } from "@composables/useUtils";
+import { reactive } from "vue";
+
+const appUseUtils = reactive(useUtils());
+</script>
 
 <template>
     <header class="fixed-top">
@@ -47,6 +52,7 @@
                             <router-link
                                 class="nav-link"
                                 :to="{ name: 'home' }"
+                                @click="appUseUtils.scrollToTop()"
                             >
                                 Inicio
                             </router-link>
@@ -54,7 +60,10 @@
                         <li class="nav-item">
                             <router-link
                                 class="nav-link"
-                                :to="{ name: 'products' }"
+                                :to="{
+                                    name: 'products',
+                                }"
+                                @click="appUseUtils.scrollToTop()"
                             >
                                 Artículos
                             </router-link>
@@ -62,13 +71,30 @@
                         <li class="nav-item">
                             <router-link
                                 class="nav-link"
+                                :to="{
+                                    name: 'products',
+                                    query: { category: 'customizable' },
+                                }"
+                                @click="appUseUtils.scrollToTop()"
+                            >
+                                Productos Personalizados
+                            </router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link
+                                class="nav-link"
                                 :to="{ name: 'processes' }"
+                                @click="appUseUtils.scrollToTop()"
                             >
                                 Proceso
                             </router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link class="nav-link" :to="{ name: 'FAQ' }">
+                            <router-link
+                                class="nav-link"
+                                :to="{ name: 'FAQ' }"
+                                @click="appUseUtils.scrollToTop()"
+                            >
                                 FAQ
                             </router-link>
                         </li>

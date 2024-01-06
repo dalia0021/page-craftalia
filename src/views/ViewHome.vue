@@ -8,12 +8,6 @@ import TheCallToSell from "@components/TheCallToSell.vue";
 import TheReviews from "@components/TheReviews.vue";
 import TheQuestions from "@components/TheQuestions.vue";
 import TheFooter from "@components/TheFooter.vue";
-
-const scrollToTop = () => {
-    window.scrollTo(0, 0);
-};
-
-scrollToTop();
 </script>
 
 <template>

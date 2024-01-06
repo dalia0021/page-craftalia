@@ -5,24 +5,65 @@ import BaseProduct from "@components/BaseProduct.vue";
 import BaseSection from "@components/BaseSection.vue";
 import TheFooter from "@components/TheFooter.vue";
 import { useApi } from "@composables/useApi";
-import { reactive, ref } from "vue";
+import { reactive, ref, watch, computed } from "vue";
+import { useRoute } from "vue-router";
 
-const appApi = reactive(useApi());
+const route = useRoute();
 
+const appApi = reactive(useApi());;
+
+const query = reactive({
+    search: "",
+    type: "",
+    category: "customizable"
+});
 const listProductos = ref([]);
 
+watch(
+    () => route.query,
+    (newValue) => {
+        loadQueryParams();
+        fetchListProducts();
+    }
+);
+
 const initComponents = () => {
-    scrollToTop();
+    loadQueryParams();
     fetchListProducts();
 };
 
+const loadQueryParams = () =>{
+    if (route.query.type) {
+        query.type = route.query.type;
+    }
+
+    if(route.query.category == "customizable"){
+        query.customizable = true;
+    }else{
+        query.customizable = false;
+    }
+}
+
 const fetchListProducts = () => {
-    listProductos.value = appApi.getProductsList();
+    let list = appApi.getProductsList();
+    listProductos.value =  list.filter((item) => item.customizable == query.customizable)
+
 };
 
-const scrollToTop = () => {
-    window.scrollTo(0, 0);
-};
+const title = computed(() => {
+  if (query.customizable) {
+    return "Explora Nuestras Opciones para Perzonalizar";
+  }
+  return "Explora Nuestra Colección de Productos";
+});
+
+const subTitle = computed(() => {
+    if (query.customizable) {
+    return "Papelería y Accesorios Personalizados para Capturar Tu Estilo Único";
+  }
+  return "Papelería y Accesorios hechos a mano";
+});
+
 
 initComponents();
 </script>
@@ -30,8 +71,8 @@ initComponents();
 <template>
     <TheNavbar />
     <BaseTitlePage
-        title="Explora Nuestra Colección"
-        subtitle="Papelería y Accesorios Personalizados para Capturar Tu Estilo Único"
+        :title="title"
+        :subtitle="subTitle"
     />
     <BaseSection bgColor="bg-white" frames>
         <div class="row gy-5 gx-xl-4 gx-lg-4 gx-md-4 justify-content-center">
