@@ -351,7 +351,7 @@
         "imageFeatured": null,
         "image": "products/pin-one-piece-choper-01.png",
         "category":"Pines",
-        "name": "Pin - Chopper",
+        "name": "Pin One piece - Chopper",
         "description":"",
         "size": "1.5 x 1.5",
         "price": "80.00",
@@ -366,6 +366,27 @@
             "Pintura acrílica",
             "Acabado con resina",
             "Acabado brillantina azul"
+        ]
+
+    },
+    {
+        "id":17,
+        "imageFeatured": null,
+        "image": "products/note-pad-gran-danes-01.png",
+        "category":"Bloc de notas",
+        "name": "Notepad Perrito y huellas - gran danés",
+        "description":"",
+        "size": "13 x 10",
+        "price": "60.00",
+        "featured": false,
+        "customizable": false,
+        "thumbnails":[
+            "products/note-pad-gran-danes-01-1.png",
+            "products/note-pad-gran-danes-01-2.png"
+        ],
+        "characteristics":[
+            "50 hojas",
+            "base de apoyo de carton duro"
         ]
 
     }
