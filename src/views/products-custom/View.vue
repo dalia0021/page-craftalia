@@ -15,6 +15,7 @@ const appApi = reactive(useApi());;
 const query = reactive({
     search: "",
     type: "",
+    category: "customizable"
 });
 const listProductos = ref([]);
 
@@ -35,10 +36,11 @@ const loadQueryParams = () =>{
     if (route.query.type) {
         query.type = route.query.type;
     }
+
 }
 
 const fetchListProducts = () => {
-    listProductos.value = appApi.getProductsList();
+    listProductos.value = appApi.getProductsCustomList();
 };
 
 const title = computed(() => {
@@ -72,7 +74,7 @@ initComponents();
                 :key="idx"
                 class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-10 text-center"
             >
-                <BaseProduct :product="item" />
+                <BaseProduct :productCustom="true" :product="item" />
             </div>
         </div>
     </BaseSection>

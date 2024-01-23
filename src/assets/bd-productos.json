@@ -1,285 +1,6 @@
 [
-    
     {
         "id":1,
-        "imageFeatured": "featured/llavero-acrilico.png",
-        "image": "products/llavero-acrilico.png",
-        "category":"Llaveros",
-        "name": "Llavero acrílico",
-        "description":"Llavero de base acrilica trasparente y resistente, personalizable",
-        "size": "5x5",
-        "price": "120.00",
-        "featured": true,
-        "customizable": true,
-        "thumbnails":[
-            "products/llavero-acrilico-1.jpg",
-            "products/llavero-acrilico-2.png",
-            "products/llavero-acrilico-3.png",
-            "products/llavero-acrilico-4.png"
-        ],
-        "characteristics":[
-            "Acrílico transparente",
-            "Detalles en vinil",
-            "Acabado con resina",
-            "Diseño: un solo lado",
-            "Grosor: 5 milimetros"
-        ]
-    },
-    {
-        "id":2,
-        "imageFeatured": "featured/llavero-shrink.png",
-        "image": "products/llavero-shrink.png",
-        "category":"Llaveros",
-        "name": "Llavero shrink",
-        "description":"",
-        "size": "5",
-        "price": "100.00",
-        "featured": false,
-        "customizable": true,
-        "thumbnails":[
-            "products/llavero-shrink.png"
-        ],
-        "characteristics":[
-            "Plastico duro trasparente",
-            "Pintura acrílica",
-            "Acabado con resina",
-            "Diseño: un solo lado"
-        ]
-
-    },
-    {
-        "id":3,
-        "imageFeatured": "featured/colguije.png",
-        "image": "products/colguije.png",
-        "category":"Colguijes",
-        "name": "Colguije para celular",
-        "description":"",
-        "size": "4",
-        "price": "70.00",
-        "featured": true,
-        "customizable": true,
-        "thumbnails":[
-            "products/colguije.png"
-        ],
-        "characteristics":[
-            "Plastico duro trasparente",
-            "Pintura acrílica",
-            "Acabado con resina"
-        ]
-
-    },
-    {
-        "id":4,
-        "imageFeatured": "featured/pines.png",
-        "image": "products/pines.png",
-        "category":"Pines",
-        "name": "Pin para ropa",
-        "description":"",
-        "size": "2 a 3",
-        "price": "50.00",
-        "featured": true,
-        "customizable": true,
-        "thumbnails":[
-            "products/pines.png"
-        ],
-        "characteristics":[
-            "Plastico duro trasparente",
-            "Pintura acrílica",
-            "Acabado con resina"
-        ]
-
-    },
-    {
-        "id":5,
-        "imageFeatured": null,
-        "image": "products/aretes.png",
-        "category":"Aretes",
-        "name": "Aretes",
-        "description":"",
-        "size": "1.5",
-        "price": "100.00",
-        "featured": false,
-        "customizable": true,
-        "thumbnails":[
-            "products/aretes.png"
-        ],
-        "characteristics":[
-            "Plastico duro trasparente",
-            "Pintura acrílica",
-            "Acabado con resina"
-        ]
-
-    },
-    {
-        "id":6,
-        "imageFeatured": null,
-        "image": "products/cuaderno-chico.png",
-        "category":"Cuadernos",
-        "name": "Cuaderno - chico",
-        "description":"",
-        "size": "12x10",
-        "price": "200.00",
-        "featured": false,
-        "customizable": true,
-        "thumbnails":[
-            "products/cuaderno-chico.png"
-        ],
-        "characteristics":[
-            "Pasta Dura",
-            "Arillo metálico",
-            "100 páginas color capuccino"
-        ]
-
-    },
-    {
-        "id":6,
-        "imageFeatured": null,
-        "image": "products/cin-color.jpg",
-        "category":"Stickers",
-        "name": "Stickers individuales para negocio - color",
-        "description":"",
-        "size": "23pzas 4x4",
-        "price": "60.00",
-        "featured": false,
-        "customizable": true,
-        "thumbnails":[
-            "products/cin-color.jpg"
-        ],
-        "characteristics":[
-            "Papel adhesivo blanco",
-            "Resistente al agua",
-            "Acabado glossy - brillante"
-        ]
-
-    },
-    {
-        "id":7,
-        "imageFeatured": null,
-        "image": "products/cin-cafe.jpg",
-        "category":"Stickers",
-        "name": "Stickers individuales para negocio - café",
-        "description":"",
-        "size": "23pzas 4x4",
-        "price": "55.00",
-        "featured": false,
-        "customizable": true,
-        "thumbnails":[
-            "products/cin-cafe.jpg"
-        ],
-        "characteristics":[
-            "Papel adhesivo cafe kraft",
-            "Acabado matte",
-            "Diseño color negro"
-        ]
-
-    },
-    {
-        "id":8,
-        "imageFeatured": null,
-        "image": "products/cin-holograficas.jpg",
-        "category":"Stickers",
-        "name": "Stickers individuales para negocio - holográficas",
-        "description":"",
-        "size": "23pzas 4x4",
-        "price": "60.00",
-        "featured": false,
-        "customizable": true,
-        "thumbnails":[
-            "products/cin-holograficas.jpg"
-        ],
-        "characteristics":[
-            "Papel adhesivo holográfico",
-            "Acabado glossy - brillante",
-            "Diseño color negro"
-        ]
-
-    },
-    {
-        "id":9,
-        "imageFeatured": null,
-        "image": "products/ce-minis.png",
-        "category":"Stickers",
-        "name": "Stickers escolares - minis",
-        "description":"",
-        "size": "60pzas 3x0.5",
-        "price": "70.00",
-        "featured": false,
-        "customizable": true,
-        "thumbnails":[
-            "products/ce-minis.png"
-        ],
-        "characteristics":[
-            "Papel adhesivo",
-            "Resistente al agua",
-            "Laminado con acabado mate, brilloso u holográfico"
-        ]
-
-    },
-    {
-        "id":10,
-        "imageFeatured": null,
-        "image": "products/ce-chicas.jpg",
-        "category":"Stickers",
-        "name": "Stickers escolares - chicas",
-        "description":"",
-        "size": "45pzas 6x1",
-        "price": "70.00",
-        "featured": false,
-        "customizable": true,
-        "thumbnails":[
-            "products/ce-chicas.jpg"
-        ],
-        "characteristics":[
-            "Papel adhesivo",
-            "Resistente al agua",
-            "Laminado con acabado mate, brilloso u holográfico"
-        ]
-
-    },
-    {
-        "id":11,
-        "imageFeatured": null,
-        "image": "products/ce-medianas.jpg",
-        "category":"Stickers",
-        "name": "Stickers escolares - medianas",
-        "description":"",
-        "size": "40pzas 3x3",
-        "price": "70.00",
-        "featured": false,
-        "customizable": true,
-        "thumbnails":[
-            "products/ce-medianas.jpg"
-        ],
-        "characteristics":[
-            "Papel adhesivo",
-            "Resistente al agua",
-            "Laminado con acabado mate, brilloso u holográfico"
-        ]
-
-    },
-    {
-        "id":12,
-        "imageFeatured": null,
-        "image": "products/ce-grandes.jpg",
-        "category":"Stickers",
-        "name": "Stickers escolares - grandes",
-        "description":"",
-        "size": "20pzas 6x3",
-        "price": "70.00",
-        "featured": false,
-        "customizable": true,
-        "thumbnails":[
-            "products/ce-grandes.jpg"
-        ],
-        "characteristics":[
-            "Papel adhesivo",
-            "Resistente al agua",
-            "Laminado con acabado mate, brilloso u holográfico"  
-        ]
-
-    },
-    {
-        "id":13,
         "imageFeatured": "featured/llavero-zelda-link.png",
         "image": "products/llavero-zelda-link-01.png",
         "category":"Llaveros",
@@ -288,7 +9,6 @@
         "size": "5",
         "price": "100.00",
         "featured": true,
-        "customizable": false,
         "thumbnails":[
             "products/llavero-zelda-link-01-1.png"
         ],
@@ -301,7 +21,7 @@
 
     },
     {
-        "id":14,
+        "id":2,
         "imageFeatured": null,
         "image": "products/colguije-one-piece-jinbe-01.png",
         "category":"Colguijes",
@@ -310,7 +30,6 @@
         "size": "1.5 x 2",
         "price": "90.00",
         "featured": false,
-        "customizable": false,
         "thumbnails":[
             "products/colguije-one-piece-jinbe-01-1.png"
         ],
@@ -323,7 +42,7 @@
 
     },
     {
-        "id":15,
+        "id":3,
         "imageFeatured": null,
         "image": "products/colguije-ranita-burbujas-01.png",
         "category":"Colguijes",
@@ -332,7 +51,6 @@
         "size": "1.5 x 1.5",
         "price": "70.00",
         "featured": false,
-        "customizable": false,
         "thumbnails":[
             "products/colguije-ranita-burbujas-01-1.png",
             "products/colguije-ranita-burbujas-01-2.png",
@@ -347,7 +65,7 @@
 
     },
     {
-        "id":16,
+        "id":4,
         "imageFeatured": null,
         "image": "products/pin-one-piece-choper-01.png",
         "category":"Pines",
@@ -356,7 +74,6 @@
         "size": "1.5 x 1.5",
         "price": "80.00",
         "featured": false,
-        "customizable": false,
         "thumbnails":[
             "products/pin-one-piece-choper-01-1.png",
             "products/pin-one-piece-choper-01-2.png"
@@ -370,7 +87,7 @@
 
     },
     {
-        "id":17,
+        "id":5,
         "imageFeatured": null,
         "image": "products/note-pad-gran-danes-01.png",
         "category":"Bloc de notas",
@@ -379,7 +96,6 @@
         "size": "13 x 10",
         "price": "60.00",
         "featured": false,
-        "customizable": false,
         "thumbnails":[
             "products/note-pad-gran-danes-01-1.png",
             "products/note-pad-gran-danes-01-2.png"

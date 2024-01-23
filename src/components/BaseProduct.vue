@@ -9,6 +9,10 @@ defineProps({
     type: Object,
     required: true,
   },
+  productCustom:{
+    type: Boolean,
+    default: false,
+  }
 });
 </script>
 
@@ -31,16 +35,27 @@ defineProps({
       </div>
       <div>
         <p class="text-cafe"></p>
-        <router-link
+        <router-link 
+            v-if="productCustom"
+          :to="{ name: 'productsCustomDetail', params: { id: product.id } }"
+          custom
+          v-slot="{ navigate }"
+        >
+          <button @click="navigate" class="btn btn-lila btn-sm w-100">
+            <span><i class="bi bi-brush"></i> Personalizar</span>
+          </button>
+        </router-link>
+        <router-link 
+            v-else
           :to="{ name: 'productsDetail', params: { id: product.id } }"
           custom
           v-slot="{ navigate }"
         >
           <button @click="navigate" class="btn btn-lila btn-sm w-100">
-            <span v-if="!product.customizable"><i class="bi bi-cart-plus"></i> Comprar</span>
-            <span v-else><i class="bi bi-brush"></i> Personalizar</span>
+            <span><i class="bi bi-cart-plus"></i> Comprar</span>
           </button>
         </router-link>
+        
       </div>
     </div>
   </div>

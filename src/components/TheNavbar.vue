@@ -65,19 +65,18 @@ const appUseUtils = reactive(useUtils());
                                 }"
                                 @click="appUseUtils.scrollToTop()"
                             >
-                                Artículos
+                                Productos
                             </router-link>
                         </li>
                         <li class="nav-item">
                             <router-link
                                 class="nav-link"
                                 :to="{
-                                    name: 'products',
-                                    query: { category: 'customizable' },
+                                    name: 'productsCustom',
                                 }"
                                 @click="appUseUtils.scrollToTop()"
                             >
-                                Productos Personalizados
+                                Personalizables
                             </router-link>
                         </li>
                         <li class="nav-item">

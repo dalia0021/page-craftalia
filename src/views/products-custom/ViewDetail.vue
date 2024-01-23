@@ -5,6 +5,8 @@ import { useApi } from "@composables/useApi";
 import { reactive, ref } from "vue";
 import BaseProductImagesCarousel from "@components/BaseProductImagesCarousel.vue";
 import AppInputAmount from "@components/AppInputAmount.vue";
+import AppInputDesign from "@components/AppInputDesign.vue";
+import AppInputKeychainStyle from "@components/AppInputKeychainStyle.vue";
 
 const appApi = reactive(useApi());
 
@@ -13,6 +15,11 @@ const props = defineProps({
         type: String,
         required: true,
     },
+});
+
+const form = reactive({
+    cantidad: 1,
+    diseno: "",
 });
 
 const producto = reactive({
@@ -24,17 +31,12 @@ const producto = reactive({
     featured: false,
 });
 
-const form = reactive({
-    cantidad: 1,
-    diseno: "",
-});
-
 const initComponents = () => {
     loadData();
 };
 
 const loadData = () => {
-    let data = appApi.getProductById(props.id);
+    let data = appApi.getProductCustomById(props.id);
 
     producto.image = data.image;
     producto.category = data.category;
@@ -74,9 +76,9 @@ initComponents();
                         <li class="breadcrumb-item">
                             <router-link
                                 class="text-decoration-none"
-                                :to="{ name: 'products' }"
+                                :to="{ name: 'productsCustom' }"
                             >
-                                <small>Productos</small>
+                                <small>Regalos Personalizables</small>
                             </router-link>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
@@ -106,6 +108,16 @@ initComponents();
                         </div>
                         <div class="text-body-tertiary">
                             <hr />
+                        </div>
+                        <div
+                            class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"
+                        >
+                            <AppInputDesign v-model="form.diseno" />
+                        </div>
+                        <div
+                            class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"
+                        >
+                            <AppInputKeychainStyle />
                         </div>
                     </div>
                     <br />
