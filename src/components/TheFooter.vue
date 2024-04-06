@@ -1,5 +1,5 @@
 <script setup>
-import logo from "@assets/luharud-500.png";
+import logo from "@assets/logo-craftalia.png";
 import logoInsta from "@assets/instagram.png";
 import logoTiktok from "@assets/tik-tok.png";
 </script>

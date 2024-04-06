@@ -87,7 +87,7 @@ import TheFooter from "@components/TheFooter.vue";
 
                     <p>Si necesitas más ayuda con mucho gusto te apoyamos:</p>
 
-                    @craft.luharud | craft.luharud@gmail.com
+                    @craftalia | craftalia@gmail.com
                 </div>
             </div>
         </div>

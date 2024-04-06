@@ -9,7 +9,7 @@ import polaroid from "@assets/foto-pola.png";
             <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12 col-12">
                 <img
                     :src="polaroid"
-                    alt="luharud"
+                    alt="Craftalia"
                     id="img-polaroid"
                     class="img-fluid mx-auto d-block"
                 />
@@ -20,11 +20,11 @@ import polaroid from "@assets/foto-pola.png";
                     Hace algunos años, en un rincón tranquilo de mi pequeño
                     taller, nació la idea de crear una marca que capturara la
                     esencia de la personalización y la artesanía. Me llamo
-                    Dalia, y soy la mente y las manos detrás de Craft Luharud.
+                    Dalia, y soy la mente y las manos detrás de Craftalia.
                 </p>
 
                 <p class="text-justify">
-                    Así nació Craft Luharud. Desde entonces, me he dedicado
+                    Así nació Craftalia. Desde entonces, me he dedicado
                     apasionadamente a crear productos de papelería y accesorios
                     únicos, diseñados y fabricados con cuidado artesanal. Cada
                     artículo que sale de mi taller es una obra de arte en sí
@@ -39,7 +39,7 @@ import polaroid from "@assets/foto-pola.png";
                     <figcaption class="blockquote-footer">
                         Dalia Morales V.
                         <cite title="Source Title"
-                            >Creador de Craft Luharud</cite
+                            >Creador de Craftalia</cite
                         >
                     </figcaption>
                 </figure>

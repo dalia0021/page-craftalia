@@ -29,9 +29,9 @@ const appUseUtils = reactive(useUtils());
             <div class="container-fluid">
                 <router-link class="navbar-brand m-0" :to="{ name: 'home' }">
                     <img
-                        src="../assets/luharud-500.png"
+                        src="../assets/logo-craftalia.png"
                         alt="Logo"
-                        height="40"
+                        height="50"
                         class="d-inline-block align-text-top mx-4"
                     />
                 </router-link>
