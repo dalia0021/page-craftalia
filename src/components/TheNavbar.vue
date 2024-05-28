@@ -10,9 +10,22 @@ const appUseUtils = reactive(useUtils());
         <div
             class="bg-cafe d-flex justify-content-center align-items-center py-2 text-white"
         >
-           <small><b>¡Envios a todo mexico!</b></small>
+        ¡Realiza hoy tu pedido!
+            <router-link
+                :to="{ name: 'products' }"
+                custom
+                v-slot="{ navigate }"
+            >
+                <button
+                    @click="navigate"
+                    type="button"
+                    class="ms-4 btn btn-outline-light"
+                >
+                    <i class="bi bi-heart"></i> Ver Catálogo
+                </button>
+            </router-link>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-crema">
             <div class="container-fluid">
                 <router-link class="navbar-brand m-0" :to="{ name: 'home' }">
                     <img
