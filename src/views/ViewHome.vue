@@ -1,7 +1,7 @@
 <script setup>
 import TheNavbar from "@components/TheNavbar.vue";
 import TheBanner from "@components/TheBanner.vue";
-import TheFeaturedProducts from "@components/TheFeaturedProducts.vue";
+import TheCategoryProducts from "@components/TheCategoryProducts.vue";
 import TheProcessSteps from "@components/TheProcessSteps.vue";
 import TheAboutUs from "@components/TheAboutUs.vue";
 import TheCallToSell from "@components/TheCallToSell.vue";
@@ -13,7 +13,7 @@ import TheFooter from "@components/TheFooter.vue";
 <template>
     <TheNavbar />
     <TheBanner />
-    <TheFeaturedProducts />
+    <TheCategoryProducts />
     <TheProcessSteps />
     <TheAboutUs />
     <TheCallToSell />

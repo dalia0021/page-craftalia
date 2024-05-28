@@ -21,6 +21,10 @@ h3 {
   background-color: #794f41;
 }
 
+.bg-amarillo {
+    background-color: #fc0;
+}
+
 .text-lila {
   color: #c3aed4;
 }
@@ -31,6 +35,10 @@ h3 {
 
 .text-cafe {
   color: #794f41;
+}
+
+.text-amarillo {
+    color: #fc0;
 }
 
 .border-lila-subtle {
@@ -48,6 +56,23 @@ h3 {
 .text-justify {
   text-align: justify;
   text-justify: inter-word;
+}
+
+.nav-link.text-amarillo:hover,
+.nav-link.text-amarillo:focus {
+  color: #fc0;
+}
+
+.btn-amarillo:hover {
+  color: #ffffff;
+  background-color: #fc0;
+  border-color: #fc0;
+}
+
+.btn-amarillo {
+  color: #ffffff;
+  background-color: #fc0;
+  border-color: #fc0;
 }
 
 .nav-link.text-lila:hover,
@@ -69,8 +94,8 @@ h3 {
 
 .btn-cafe:hover {
   color: #ffffff;
-  background-color: #c3aed4;
-  border-color: #c3aed4;
+  background-color: #fc0;
+  border-color: #fc0;
 }
 
 .btn-cafe {
@@ -83,8 +108,8 @@ h3 {
   --bs-btn-color: #794f41;
   --bs-btn-border-color: #794f41;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #c3aed4;
-  --bs-btn-hover-border-color: #c3aed4;
+  --bs-btn-hover-bg: #fc0;
+  --bs-btn-hover-border-color: #fc0;
   --bs-btn-focus-shadow-rgb: 248, 249, 250;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #794f41;
@@ -96,7 +121,7 @@ h3 {
   --bs-gradient: none;
 }
 
-#svg-top-crema {
+/* #svg-top-crema {
   height: 65px;
   background-color: #faefda;
   mask-image: url(../assets/franja-in.svg);
@@ -107,3 +132,4 @@ h3 {
   background-color: #faefda;
   mask-image: url(../assets/franja.svg);
 }
+ */
